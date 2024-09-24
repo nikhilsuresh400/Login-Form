@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: auto !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+    margin: 0 !important;
+    padding: 50px 60px 30px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+#logo-img {
+    margin: 0;
+    padding: 0px;
+    font-size: 55px;
+    
+    margin-bottom: 10px;
+}
+
+.header-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 420px;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#main-header, #sub-header {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#main-header {
+    font-size: 1em;
+}
+
+#sub-header {
+    color: rgb(90, 90, 90);
+    font-size: 0.55em;
+}
+
+.email-password .input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+
+    margin: 0;
+    padding: 10px;
+    width: 460px;
+
+    position: relative;
+}
+
+#email, #password {
+    width: 100%;
+    margin: 0;
+    padding: 8px 48px 8px 15px;
+    background: transparent;
+
+    border: 1px solid rgb(180, 180, 180);
+    outline: none;
+    border-radius: 10px;
+}
+
+#email::placeholder, #password::placeholder {
+    color: rgb(90, 90, 90);
+    font-size: 14px;
+}
+
+.input-box i {
+    position: absolute;
+    right: 30px;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 440px;
+}
+
+.forgot-password a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+
+    margin-left: auto;
+}
+
+.btn-container {
+    width: 440px;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container button {
+    width: 440px;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 0px 10px 0px 10px;
+    background-color: black;
+    color: rgb(240, 240, 240);
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6), 0 8px 16px rgba(0, 0, 0, 0.32);
+
+    transition: 0.2s;
+}
+
+.btn-container button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.btn-container button:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.32);
+}
+
+.footer {
+    margin: 20px 0px;
+    width: 440px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.footer-buttons {
+    width: 440px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-buttons button {
+    width: 110px;
+    margin: 0;
+    padding: 4px 8px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(75, 75, 75, 0.5);
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+
+    transition: 0.2s;
+
+
+}
+
+.footer-buttons button:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.footer-buttons i {
+    font-size: 28px;
+}
